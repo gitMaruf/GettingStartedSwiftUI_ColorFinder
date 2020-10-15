@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUI_ColorFinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(guessR: 0.5, guessG: 0.5, guessB: 0.5)
+               
         }
     }
 }
+
+

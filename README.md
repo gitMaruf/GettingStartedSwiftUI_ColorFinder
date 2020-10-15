@@ -121,8 +121,8 @@ struct ContentView_Previews: PreviewProvider {
 
 ```
 
-* First of all we will crate some random variable to crate an arbitrary color rectangle
-* And we will crate some guess variable of @State type, State is a property wrapper, can read and write into the views owned by SwitUI, for outside use we will use @Binding property wrapper type
-* We will crate some VStack and HStack as per needed, create two rectangle with guess and random using property
-* We will create two SubView ColorSlider for crate slider dynamically and AlertView to show the result.
+* First of all we will create some random variable to create an arbitrary color rectangle
+* And we will create some guess variable of @State type, State is a property wrapper, can read and write into the views owned by SwitUI, for outside use we will use @Binding property wrapper type
+* We will create some VStack and HStack as per needed, create two rectangle with guess and random using property
+* We will create two SubView ColorSlider for create slider dynamically and AlertView to show the result.
 * Here scoreFinder Method will help us to find the value of user assumption 
